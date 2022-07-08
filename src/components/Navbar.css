@@ -1,0 +1,19 @@
+.navbar {
+  background-color: #f55a5a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  height: 7rem;
+}
+
+.navbar__icon {
+  height: 3.5rem;
+  margin-right: 0.5rem;
+}
+
+.navbar__title {
+  font-size: clamp(2rem, 10vw, 3rem);
+  color: #fff;
+  text-align: center;
+}
